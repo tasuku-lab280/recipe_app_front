@@ -1,8 +1,8 @@
 import type { CustomNextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { AuthLayout } from "src/layout";
-import { getPath } from "src/lib/const";
+import { AuthLayout } from "layouts";
+import { getPath } from "lib/const";
 import {
   TextInput,
   PasswordInput,

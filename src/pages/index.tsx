@@ -1,9 +1,10 @@
 import { Button, Stack, Table } from "@mantine/core";
-import type { CustomNextPage } from "next";
-import { DashboardLayout } from "src/layout";
-import { PageContent } from "src/component/PageContent";
-import { PageContainer } from "src/component/PageContainer";
 import { showNotification } from "@mantine/notifications";
+import type { CustomNextPage } from "next";
+
+import { DashboardLayout } from "layouts";
+import { PageContent } from "components/PageContent";
+import { PageContainer } from "components/PageContainer";
 
 const Index: CustomNextPage = () => {
   return (

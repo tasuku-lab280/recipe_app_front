@@ -1,8 +1,8 @@
 import type { CustomNextPage } from "next";
 import { Group, Stack } from "@mantine/core";
-import { DashboardLayout } from "src/layout";
-import { PageContent } from "src/component/PageContent";
-import { PageContainer } from "src/component/PageContainer";
+import { DashboardLayout } from "layouts";
+import { PageContent } from "components/PageContent";
+import { PageContainer } from "components/PageContainer";
 
 const Settings: CustomNextPage = () => {
   return (

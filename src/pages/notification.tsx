@@ -1,5 +1,5 @@
 import type { CustomNextPage } from "next";
-import { DashboardLayout } from "src/layout";
+import { DashboardLayout } from "layouts";
 
 const Notification: CustomNextPage = () => {
   return <div>Notification</div>;

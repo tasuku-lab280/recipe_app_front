@@ -13,7 +13,7 @@ import {
   ActionIcon,
 } from "@mantine/core";
 import { Logout, Bell, Search, Settings } from "tabler-icons-react";
-import { getPath } from "src/lib/const";
+import { getPath } from "lib/const";
 
 export const Header: FC<{ left: ReactNode }> = ({ left }) => {
   return (

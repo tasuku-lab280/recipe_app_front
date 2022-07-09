@@ -1,6 +1,7 @@
 import { NotificationsProvider } from "@mantine/notifications";
 import type { CustomAppPage } from "next/app";
-import { AppMantineProvider, GlobalStyleProvider } from "src/lib/mantine";
+
+import { AppMantineProvider, GlobalStyleProvider } from "lib/mantine";
 
 const App: CustomAppPage = ({ Component, pageProps }) => {
   const getLayout =

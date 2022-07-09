@@ -16,8 +16,8 @@ import {
   ArrowRight,
   DeviceAnalytics,
 } from "tabler-icons-react";
-import { getPath } from "src/lib/const";
-import { ActiveLink } from "src/lib/next";
+import { getPath } from "lib/const";
+import { ActiveLink } from "lib/next";
 
 const useStyles = createStyles<string, { collapsed?: boolean }>(
   (theme, params, getRef) => {

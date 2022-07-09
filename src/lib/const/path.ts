@@ -9,13 +9,9 @@ const PATH = {
 
 export const getPath = (pathKey: keyof typeof PATH, ...args: string[]) => {
   const val = PATH[pathKey];
-
-  if (!args) {
-    return val;
-  }
+  if (!args) return val;
 
   const dirs = val.slice(1).split("/");
-
   const newPath = dirs.map((dir) => {
     if (dir.startsWith("[")) {
       const replaceDir = args[0];
